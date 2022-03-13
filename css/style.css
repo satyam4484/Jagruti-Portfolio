@@ -1,0 +1,370 @@
+*:root {
+  --white: #ffffff;
+  --dark: #090602;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--dark);
+}
+hr {
+  border: 2px solid rgba(253, 180, 215, 0.4);
+}
+.logo-text {
+  color: var(--dark) !important;
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px !important;
+  /* line-height: px; */
+}
+
+
+@media screen and (max-width:553px) {
+  .logo-text{
+    font-size: 60px!important;
+    line-height: 70px;
+  }
+}
+
+.nav-content li {
+  padding: 0 4px;
+}
+.nav-content li a {
+  color: var(--dark) !important;
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 43px;
+}
+.nav-content li a:hover{
+  border-bottom: 4px solid black;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 298px;
+  height: 368px;
+  left: -166px;
+  top: -88px;
+
+  background: rgba(180, 226, 253, 0.4);
+  filter: blur(40px);
+}
+.ellipse2 {
+  position: absolute;
+  width: 298px;
+  height: 384px;
+  left: 47px;
+  top: -114px;
+
+  background: rgba(253, 250, 180, 0.4);
+  filter: blur(40px);
+}
+.ellipse3 {
+  position: absolute;
+  width: 298px;
+  height: 368px;
+  left: 800px;
+  top: 763px;
+
+  background: rgba(180, 226, 253, 0.4);
+  filter: blur(40px);
+}
+.ellipse4 {
+  position: absolute;
+  width: 410px;
+  height: 544px;
+  left: 992px;
+  top: 586px;
+
+  background: rgba(253, 180, 215, 0.4);
+  filter: blur(40px);
+}
+
+.flower {
+  position: absolute;
+  right: 0%;
+  top: 40.37%;
+  bottom: -17.31%;
+}
+.flower img {
+  height: 40vh;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 298.11px;
+  height: 173.85px;
+
+  background: #000000;
+  border-radius: 0px 0px 300px 300px;
+}
+.rectangle1 {
+  position: absolute;
+  width: 179px;
+  height: 195px;
+  /* left: 1016px;
+  top: 264px; */
+  background: #c4c4c4;
+  border-radius: 162px 162px 0px 0px;
+}
+
+.profile-img {
+  position: absolute;
+  top: 7%;
+  width: 406.36px;
+  height: 499.15px;
+  transform: matrix(1, -0.06, 0.08, 1, 0, 0);
+}
+
+@media screen and (max-width: 767px) {
+  .profile-img {
+    top: 70%;
+  }
+}
+@media screen and (max-width: 200px) {
+  .profile-img {
+    position: relative;
+  }
+}
+
+.home-content h1 {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 72px;
+}
+.home-content p {
+  font-family: Segoe Print;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 44px;
+  text-align: justify;
+}
+
+/* about page css */
+#about-section{
+  box-sizing: border-box;
+}
+
+@media screen  and (max-width:768px) {
+  #about-section{
+    background-image: url() !important;
+    height: auto;
+  }
+
+  #resume-section{
+    background-image: url() !important;
+    height: auto;
+  }
+  #skills-section{
+    background-image: url() !important;
+    height: auto;
+  }
+  footer{
+    background-image:unset  !important;
+    height: auto;
+  }
+}
+
+.about-text {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 58px;
+  color: #090602;
+}
+.about-cover {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 43px;
+
+  color: #4b4b4b;
+
+  text-shadow: 2px 6px 6px rgba(151, 167, 195, 0.5);
+}
+.about-sec {
+  display: flex;
+}
+.about-sec h3 {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 66px;
+  line-height: 96px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.about-sec h2 {
+  font-family: Satisfy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 86px;
+  color: #637188;
+  padding-top: 40px;
+  text-shadow: 8px 8px 10px #97a7c3;
+}
+.about-para {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: justify;
+
+  color: #4b4b4b;
+}
+.active{
+  border-bottom: 4px solid black;
+}
+.about-para span {
+  padding-right: 115px;
+}
+.about-img {
+  background-image: url("images/tree.png") !important;
+}
+
+/* tools and skills  */
+.tools_heading {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 58px;
+  color: #000000;
+}
+
+.skill {
+  height: 53.21px;
+  background: whitesmoke;
+}
+.skill h4 {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: justify;
+  color: #000000;
+}
+
+.skill progress {
+  border: 5px solid rgba(151, 167, 195, 0.5);
+  transform: rotate(0.08deg);
+}
+
+.education_heading {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  /* identical to box height */
+  color: #000000;
+}
+.education_name {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 51px;
+  /* identical to box height */
+  color: #4b4b4b;
+}
+
+.education_college {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+
+  color: #4b4b4b;
+}
+/* tools and skills end here  */
+
+/* projects section */
+.project_heading {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  color: #000000;
+}
+
+.project_title {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.77);
+}
+
+.internship h1 {
+  font-family: Aoboshi One;
+  font-weight: 600;
+}
+
+.internship h5 {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #4b4b4b;
+}
+
+.project_detail_heading {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.proj_desc {
+  font-family: Aoboshi One;
+  font-style: normal;
+}
+.proj_desc h1 {
+  font-weight: 600;
+}
+
+.proj_desc p {
+  font-size: 20px;
+  line-height: 29px;
+  text-align: justify;
+}
+.project-exit {
+  width: 45px;
+}
+/* project section ends here */
+
+/* footer */
+.footer_heading {
+  font-family: Aoboshi One;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 25px;
+  color: #000000;
+}
+
+footer {
+  background-repeat: no-repeat no-repeat;
+  background-position: left, bottom;
+  height: 750px;
+  object-fit: cover, cover;
+}
+
+a {
+  text-decoration: none;
+  color: #6a6a68;
+}
